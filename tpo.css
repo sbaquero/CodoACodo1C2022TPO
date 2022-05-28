@@ -78,6 +78,11 @@ header{
     margin-left: 10px;
     margin-right: 10px;
 }
+.formulario > #dato2{
+    width: 28%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .topico{
     margin-top: 20px;
     display: flex;
@@ -89,7 +94,7 @@ header{
     border-color: dimgrey;
     font-size: 20px;
 }
-#firstName, #lastName{
+#firstName, #lastName, #cantidad, #entrada{
     border-color: dimgray;
 }
 #botonenviar{
@@ -109,6 +114,84 @@ header{
 #menu2:hover{
     color: white;
 }
+.categorias{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.item-info2{
+    border: solid rgb(187, 180, 180);
+    border-width: 2px;
+    padding-top: 20px;
+    margin: 5px;
+    margin-top: 20px;
+    width: 250px;
+    height: 220px;
+    text-align: center;
+}
+.item-info2 > p{
+    margin: 20px;
+}
+#desc{
+    font-weight: bold;
+    font-size: 20px;
+}
+#docum{
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+}
+#estudiante{
+    border-color:dodgerblue
+}
+#trainee{
+    border-color: forestgreen;
+}
+#junior{
+    border-color: darkgoldenrod;
+}
+.correo{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    width: 775px;
+    border-radius: 5px;
+    border-color: dimgrey;
+}
+.calculo > #valor{
+    width: 28%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.calculo{
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.resumen{
+    display: flex;
+    justify-content: center;
+}
+#resumen{
+    border: none;
+    width: 775px;
+    font-size: 20px;
+    background-color: rgb(193, 217, 241);
+}
+
+
+
 
 /*Carousel*/
 
